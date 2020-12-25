@@ -1,0 +1,15 @@
+Firstname = str(input("FirstName = "))
+Lastname = str(input("LastName = "))
+Age = int(input("Age = "))
+DateofBirth = int(input("BirthYear = "))
+userinfo = []
+userinfo.append(Firstname)
+userinfo.append(Lastname)
+userinfo.append(Age)
+userinfo.append(DateofBirth)
+for i in userinfo:
+    print(i)
+if Age<18:
+    print("You cant go out because its too dangerous")
+else:
+    print("You can go out to street")
